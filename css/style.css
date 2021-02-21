@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: serif;
+    background-color: white;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+}
+
+/* .errorTextContainer {
+    background-color: black;
+    display: none;
+} */
+
+.errorTextDiv {
+    display: grid;
+    height: 100vh;
+    background-color: black;
+}
+
+.errorTextDiv p {
+    color: black;
+    margin: auto;
+    /* width: 500px; */
+    font-size: 20px;
+    animation: change 1s alternate infinite;
+}
+
+@keyframes change {
+    from {
+        color: black;
+    }
+
+    to {
+        color: red;
+    }
+}
+
+.virusXpert {
+    display: grid;
+    position: fixed;
+    height: 320px;
+    width: 320px;
+}
+
+.VX {
+    margin: auto;
+}
+
+.smokeGif {
+    position: absolute;
+    display: none;
+}
